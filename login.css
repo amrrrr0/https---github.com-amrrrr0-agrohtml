@@ -1,0 +1,173 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    color: #2D2D2D;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    width: 94%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.navbar img {
+    width: 120px;
+    height: auto;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #536493;
+    font-weight: 600;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    color: #8bc34a;
+}
+
+.login-container {
+    width: 40%;
+    padding: 50px;
+}
+
+.login-container h2 {
+    color: #2E3192;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.login-container label {
+    display: block;
+    margin-top: 20px;
+    color: #e8a0a0af;
+    font-size: 18px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 95%;
+    padding: 5px;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 2px solid #8bc34a;
+    outline: none;
+    font-size: 16px;
+}
+
+.login-container a {
+    display: block;
+    margin-top: 10px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-container .social-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.login-container .social-buttons button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.login-container .social-buttons a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.login-container .login-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: #8bc34a;
+    color: #FFFFFF;
+    font-size: 18px;
+    cursor: not-allowed;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;    
+}
+
+.login-container .register {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.login-container .register a {
+    color: #8bc34a;
+    text-decoration: none;
+}
+
+.login-button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.img {
+    position: relative;
+    width: 400px;
+    height: 500px;
+}
+
+.image {
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 5px solid white;
+}
+
+.image1 {
+    top: 80px;
+    left: 20px;
+    width: 180px;
+    height: 220px;
+}
+
+.image2 {
+    top: 180px;
+    left: 170px;
+    width: 180px;
+    height: 220px;
+}
+
+.image3 {
+    top: 250px;
+    left: 50px;
+    width: 170px;
+    height: 180px;
+}
